@@ -11,7 +11,7 @@ import React, {
   View
 } from 'react-native';
 
-class HelloWorld extends Component {
+class Polite extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -48,4 +48,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
+AppRegistry.registerComponent('Polite', () => Polite);
